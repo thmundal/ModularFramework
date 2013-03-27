@@ -1,0 +1,3 @@
+[submodule "include/util"]
+	path = include/util
+	url = git://github.com/thmundal/Util.git

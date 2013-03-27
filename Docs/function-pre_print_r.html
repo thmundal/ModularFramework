@@ -3,9 +3,8 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="generator" content="ApiGen 2.8.0" />
-	<meta name="robots" content="noindex" />
 
-	<title>Page not found | ModularFramework</title>
+	<title>Function pre_print_r | ModularFramework</title>
 
 	<script type="text/javascript" src="resources/combined.js?2588533100"></script>
 	<script type="text/javascript" src="elementlist.js?2691285854"></script>
@@ -22,7 +21,7 @@
 		<div id="groups">
 			<h3>Namespaces</h3>
 			<ul>
-				<li><a href="namespace-None.html">None</a>
+				<li class="active"><a href="namespace-None.html">None</a>
 						</li>
 				<li><a href="namespace-PHP.html">PHP</a>
 						</li>
@@ -36,10 +35,6 @@
 
 
 
-			<h3>Exceptions</h3>
-			<ul>
-				<li><a href="class-Exception.html">Exception</a></li>
-			</ul>
 
 
 			<h3>Functions</h3>
@@ -47,7 +42,7 @@
 				<li><a href="function-arrayToString.html">arrayToString</a></li>
 				<li><a href="function-arrGet.html">arrGet</a></li>
 				<li><a href="function-call.html">call</a></li>
-				<li><a href="function-pre_print_r.html">pre_print_r</a></li>
+				<li class="active"><a href="function-pre_print_r.html">pre_print_r</a></li>
 				<li><a href="function-toInt.html">toInt</a></li>
 			</ul>
 		</div>
@@ -71,9 +66,10 @@
 				<a href="index.html" title="Overview"><span>Overview</span></a>
 			</li>
 			<li>
-<span>Namespace</span>			</li>
-			<li>
-<span>Class</span>			</li>
+				<a href="namespace-None.html" title="Summary of None"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Function</span>			</li>
 		</ul>
 		<ul>
 			<li>
@@ -84,11 +80,58 @@
 		</ul>
 	</div>
 
-<div id="content">
-	<h1>Page not found</h1>
-	<p>The requested page could not be found.</p>
-	<p>You have probably clicked on a link that is outdated and points to a page that does not exist any more or you have made an typing error in the address.</p>
-	<p>To continue please try to find requested page in the menu, take a look at <a href="tree.html">the tree view</a> of the whole project or use search field on the top.</p>
+<div id="content" class="function">
+	<h1>Function pre_print_r</h1>
+
+
+	<div class="description">
+	
+<p>Displays or returns a datastructure printed out in HTML pre tags for easier
+readability.</p>
+
+	</div>
+
+	<div class="info">
+		
+		
+				<b>Author:</b>
+				Thomas Mundal &lt;<a
+href="mailto:thmundal&#64;gmail.com">thmundal&#64;<!---->gmail.com</a>&gt;<br />
+		<b>Located at</b> <a href="source-function-pre_print_r.html#7-25" title="Go to source code">include/util/util.php</a><br />
+	</div>
+
+
+	<table class="summary" id="parameters">
+	<caption>Parameters summary</caption>
+	<tr id="$data">
+		<td class="name"><code>mixed</code></td>
+		<td class="value"><code><var>$data</var></code></td>
+		<td>
+			Contains the data to be printed
+		</td>
+	</tr>
+	<tr id="$return">
+		<td class="name"><code>boolean</code></td>
+		<td class="value"><code><var>$return</var> = <span class="php-keyword1">false</span></code></td>
+		<td>
+			Determens if the data is to be echoed or returned for later use
+		</td>
+	</tr>
+	</table>
+
+	<table class="summary" id="returns">
+	<caption>Return value summary</caption>
+	<tr>
+		<td class="name"><code>
+			string
+		</code></td>
+		<td>
+			Returns the pre-formatted string, or NULL if $return is false
+		</td>
+	</tr>
+	</table>
+
+
 </div>
 
 	<div id="footer">

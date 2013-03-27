@@ -6,7 +6,7 @@
     </head>
     <body>
         <?php
-        // put your code here
+        require_once("bootstrap.php");
         ?>
     </body>
 </html>
